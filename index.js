@@ -4,8 +4,11 @@ const executable = () => {
   return {
     name: 'executable',
     writeBundle: (options, bundle) => {
-      fs.chmodSync(options.file, '755');
-      console.log('done', options.file);
+        fs.chmodSync(options.file, '755');
+        console.log(
+            'Marking output executable: chmod 755', 
+            options.file
+        );
     },
   };
 };
