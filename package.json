@@ -1,0 +1,8 @@
+{
+  "name": "rollup-plugin-executable-output",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/TeleworkInc/rollup-plugin-executable-output.git",
+  "author": "Christian Lewis <hello@trytelework.com>",
+  "license": "MIT"
+}
